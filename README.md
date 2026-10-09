@@ -8,23 +8,31 @@ frame, so it changes the image format but does not animate the picture.
 
 ## Install (Windows)
 
-1. Keep `Install-ImgToGif.cmd`, `Install-ImgToGif.ps1`, and the `src` folder
-   together. Double-click `Install-ImgToGif.cmd`.
-2. The installer looks for your Vencord checkout at
+1. Double-click `Install-ImgToGif.cmd`.
+   
+3. The installer looks for your Vencord checkout at
    `%USERPROFILE%\Vencord`. If yours is elsewhere, run this in PowerShell:
 
    ```powershell
    .\Install-ImgToGif.ps1 -VencordPath "D:\path\to\Vencord"
    ```
 
-3. It copies the plugin into `src\userplugins\imgToGif`, backs up a different
+4. It copies the plugin into `src\userplugins\imgToGif`, backs up a different
    existing plugin file, then builds Vencord. It asks whether to inject the
    build into Discord; answer **y** to run Vencord's injector.
-4. Restart Discord, open **User Settings → Vencord → Plugins**, and enable
+5. Restart Discord, open **User Settings → Vencord → Plugins**, and enable
    **imgToGif**.
 
 To preview what it would do without changing files, run
 `.\Install-ImgToGif.ps1 -WhatIf`.
 
-The plugin uses Vencord's bundled `gifenc` dependency and requires no external
-services or separate package installation.
+(IMPORTANT: Keep `Install-ImgToGif.cmd`, `Install-ImgToGif.ps1`, and the `src` folder together, because without that the installer WILL not work!)
+
+And maybe i will add support for video files too.
+
+Screenshots
+
+<img width="302" height="92" alt="image" src="https://github.com/user-attachments/assets/b93d5c62-fad8-446f-9667-9f1f4eef5f53" />
+  
+<img width="286" height="144" alt="image" src="https://github.com/user-attachments/assets/e304f6ad-6346-4a03-b037-13954488c27f" />
+
