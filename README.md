@@ -14,7 +14,7 @@ frame, so it changes the image format but does not animate the picture.
    `%USERPROFILE%\Vencord`. If yours is elsewhere, run this in PowerShell:
 
    ```powershell
-   .\Install-ImgToGif.ps1 -VencordPath "D:\path\to\Vencord"
+   .\Install-ImgToGif.ps1 -VencordPath "C:\path\to\Vencord"
    ```
 
 4. It copies the plugin into `src\userplugins\imgToGif`, backs up a different
