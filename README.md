@@ -36,3 +36,6 @@ Screenshots
   
 <img width="286" height="144" alt="image" src="https://github.com/user-attachments/assets/e304f6ad-6346-4a03-b037-13954488c27f" />
 
+
+MiniTrixx666 on Discord
+
